@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="loading-overlay">
+        <div class="loading-text"> Загрузка...</div>
+    </div>
     <div class="fics">   
         <div class="first">
            <a><img class="" src="img/Back.svg"><b>User pages-</b>Profile</a>
@@ -18,15 +21,19 @@
        </div>
        <div id="menu">
            <nav>
-               <a href="index.html">Aboute me</a>
-               <a href="map.html">Map</a>
-               <a class="select" href="time.html">Time</a>
+               <a class="nav-link" href="index.html">Aboute me</a>
+               <a class="nav-link" href="map.html">Map</a>
+               <a class="select nav-link" href="time.html">Time</a>
            
            </nav>
            
        </div>
-   
    </div>
-    
+
+   <div class="content">
+    <h1>Таймер</h1>
+    <p>Время, проведенное на сайте: <span id="timer">0</span> секунд</p>
+   </div>
+    <script src="script.js"></script>
 </body>
 </html>
