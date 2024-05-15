@@ -230,9 +230,11 @@ a:hover{
 #preloader {
     position: fixed;
     top: 150px;
-    left: 50px;
+    left: 0px;
     right: 50px;
     bottom: 50px;
+    height: 568px;
+    width: 1376px;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
