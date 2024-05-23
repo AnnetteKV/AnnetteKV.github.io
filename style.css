@@ -295,12 +295,13 @@ a:hover{
 }
 .conmap{
     height: 568px;
-    width: 1376px;
+    width: 80%;
     background-color:rgba(255, 255, 255, 1);
     margin-block-end:30px;
     top: 150px;
     margin-left: 32px;
     margin-top: 102px;
+    margin-right: 32px;
 } 
 #map{
     margin: 5px auto;
@@ -354,8 +355,8 @@ a:hover{
       }
     .conmap{
         height: 80%;
-        width: 100%;
-        margin-top: 250px;
+        width: 90%;
+        margin-top: 120px;
     } 
     .framemap{
         margin-left: 100px;
