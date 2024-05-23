@@ -342,7 +342,7 @@ a:hover{
 @media(min-width:1440px){
     #map{
         /* height: 80%; */
-        width: 100%;
+        width: 90%;
         margin-top: 0px;
     }
     .framemap{
@@ -365,12 +365,16 @@ a:hover{
 @media(max-width:1000px){
     #map{
         height: 480px;
-        width: 782px;
+        width: 90%;
     }
     .framemap{
         margin-left: 610px;
 
     }
+    .conmap{
+        height: 568px;
+        width: 90%;
+    } 
 }
 
 @media(max-width:400px){
@@ -389,7 +393,7 @@ a:hover{
       }
       .conmap{
         height: 508px;
-        width: 80%;
+        width: 90%;
         margin-top: 200px;
     } 
     .framemap{
