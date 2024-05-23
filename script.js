@@ -1,10 +1,12 @@
 window.addEventListener('load', function () {
-  var preloader = document.getElementById('preloader');
+  let preloader = document.getElementById('preloader');
   preloader.style.display = 'none';
 });
 
 
 
+
+    
 document.addEventListener('DOMContentLoaded', function() {
   var lastVisitTime = localStorage.getItem('lastVisitTime');
 
@@ -40,7 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('lastVisitTime', new Date().getTime());
   });
 });
-
 
 // document.addEventListener('DOMContentLoaded', () => {
 //   const contentDiv = document.querySelector('.content');
